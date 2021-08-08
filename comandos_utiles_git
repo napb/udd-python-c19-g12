@@ -1,0 +1,16 @@
+git status
+Este comando sirve para ver que archivos estan:
+- por dejar en stage area (aun trabajando y no estan trackeados dentro del control de version)
+- pendientes para dejar en stage area (listo para confirmar los cambios)
+
+git add [nombre_del_archivo].[extension_archivo]
+Este comando sirve para poder añadir al stage area el archivo en cuestion, es decir, dejarlo candidato para commitear (o mejor dicho confirmarlo)
+
+git commit -m "[mensaje_por_ejemplo_fecha]" -m "[mensaje_de_lo_que_se_va_a_subir]"
+Este comando sirve para poder commitear (o mejor dicho confirmar) los archivos que hayamos tenido en el stage area
+
+git push
+Este comando sirve para poder subir los archivos commiteados a github
+
+git pull
+Este comando sirve para poder bajar los archivos que otra persona commiteo en todas las ramas
